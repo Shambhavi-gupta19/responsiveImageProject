@@ -1,0 +1,21 @@
+.headerLogoStyle {
+  border: 1px solid;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.headerLineStyle {
+  border: 1px solid grey;
+  margin: 10px 0px;
+  opacity: 0.2;
+}
+
+.headerHeaderImageStyle {
+  padding: 20px;
+  height: 150px;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+.loadingDots {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingDots--dot {
+  animation: dot-keyframes 1.5s infinite ease-in-out;
+  background-color: black;
+  border-radius: 10px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+
+.loadingDots--dot:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.loadingDots--dot:nth-child(3) {
+  animation-delay: 1s;
+}
+
+@keyframes dot-keyframes {
+  0% {
+    opacity: 0.4;
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    opacity: 0.4;
+    transform: scale(1, 1);
+  }
+}
