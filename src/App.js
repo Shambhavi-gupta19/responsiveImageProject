@@ -20,6 +20,7 @@ function App() {
 
   const getImageData = () => {
     const axios = require('axios');
+
     if (page == 0) {
       setLoader(true)
     }
